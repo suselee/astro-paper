@@ -3,6 +3,17 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
+<<<<<<< HEAD
+双子座，INFJ（P）-T，信息安全行业工作者。
+
+「不系之舟」取自《庄子·杂篇·列御寇》中的「巧者劳而智者忧，无能者无所求，饱食而遨游，泛若<span style="color:orange; text-decoration: underline dashed; text-decoration-color: black;">不系之舟</span>，虚而遨游者也。」
+
+我有一只暹罗猫，很黏人，它的名字叫闪电。
+
+<div>
+  <img src="/assets/cat.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+</div>
+=======
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
 
 This theme is aimed to be accessible out of the box. Light and dark mode are supported by
@@ -34,3 +45,4 @@ Here are certain features of this site.
 
 If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
 Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+>>>>>>> upstream/main
