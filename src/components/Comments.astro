@@ -1,0 +1,33 @@
+<div id="tcomment"></div>
+
+<style is:global>
+  main,
+  #comment {
+    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+  }
+</style>
+
+<script>
+document.addEventListener('astro:page-load', () => {
+function loadTwikoo() {
+const commentsContainer = document.getElementById('tcomment');
+if (commentsContainer) {
+const script = document.createElement('script');
+script.src = 'https://s4.zstatic.net/ajax/libs/twikoo/1.6.38/twikoo.all.min.js';
+script.async = true;
+script.onload = () => {
+  const initScript = document.createElement('script');
+  initScript.innerHTML = `
+    twikoo.init({
+        envId: 'https://twikoo-chi-five.vercel.app/',
+        el: '#tcomment',
+    });
+`;
+  document.body.appendChild(initScript);
+};
+document.body.appendChild(script);
+}
+}
+loadTwikoo();
+});
+</script>
