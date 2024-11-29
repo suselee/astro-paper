@@ -2,14 +2,14 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https:blog.suse.asia", // replace this with your deployed domain
-  author: "FREEBSD",
+  author: "SUSE",
   profile: "https://satnaing.dev/",
   desc: "在互联网上，留下些许痕迹",
   title: "不系之舟",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 3,
+  postPerIndex: 5,
+  postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
@@ -26,9 +26,9 @@ export const LOCALE = {
 
 export const LOGO_IMAGE = {
   enable: true,
-  svg: false,
+  svg: true,
   width: 100,
-  height: 23,
+  height: 100,
 };
 
 export const SOCIALS: SocialObjects = [
