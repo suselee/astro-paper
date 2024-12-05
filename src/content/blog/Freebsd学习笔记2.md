@@ -1,6 +1,6 @@
 ---
 author: Suse
-pubDatetime: 2024-12-5T16:36:00Z
+pubDatetime: 2024-12-05T16:36:00Z
 title: Freebsd学习笔记2
 featured: true
 draft: false
@@ -10,7 +10,6 @@ tags:
   - 操作系统
 description: Freebsd bhyve
 ---
-
 
 前段时间实践了FreeBSD-jail相关的一些知识点。在实践的过程中我止不住的惊叹jail的设计理念，除了生态之外，其他方面自认为比docker要好。
 
