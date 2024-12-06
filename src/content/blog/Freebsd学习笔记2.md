@@ -99,10 +99,14 @@ vm install debian-mine debian-12.8.0-amd64-netinst.iso
 
 - 使用vm console debian，输入用户名密码进入虚拟机后台，执行相关操作比如部署docker等服务
 
-![[/assets/debian-console.png]]
+<div>
+  <img src="/assets/debian-console.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+</div>
 
 ## 5、在虚拟机安装1panel
 
 使用curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh安装1panel，并按照指引完成安装。下图为1panel安装完成部署的jellyfin容器。
 
-![[/assets/1panel.png]]
+<div>
+  <img src="/assets/1panel" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+</div>
