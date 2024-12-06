@@ -16,8 +16,7 @@ description: Freebsd bhyve
 而关于bhyve虚拟机相关的内容，我也已经实践过并结束了，同样的在实践的过程中并没有遇到太多的坑，本篇笔记就介绍一下使用vm-bhyve在Freebsd14.1上搭建debian虚拟机的全过程。
 
 
-> vm-bhyve是一款freebsd专用的bhyve虚拟机管理系统，通过它，你只需要简单的输入几行命令就能创建自己的虚拟机，包括win、linux以及各种版本的BSD系统。
-
+> [vm-bhyve](https://github.com/churchers/vm-bhyve)是一款freebsd专用的bhyve虚拟机管理系统，通过它，你只需要简单的输入几行命令就能创建自己的虚拟机，包括win、linux以及各种版本的BSD系统。
 
 ## 1、前期准备
 
@@ -108,5 +107,5 @@ vm install debian-mine debian-12.8.0-amd64-netinst.iso
 使用curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh安装1panel，并按照指引完成安装。下图为1panel安装完成部署的jellyfin容器。
 
 <div>
-  <img src="/assets/1panel" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/1panel.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
