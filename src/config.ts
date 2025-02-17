@@ -10,7 +10,7 @@ export const SITE: Site = {
   lightAndDarkMode: true,
   postPerIndex: 5,
   postPerPage: 4,
-  scheduledPostMargin: 15 * 60 * 100000, // 1500 minutes
+  scheduledPostMargin: 1500 * 60 * 1000, // 1500 minutes
   showArchives: true,
   editPost: {
     url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
