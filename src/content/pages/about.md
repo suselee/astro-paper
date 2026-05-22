@@ -1,37 +1,14 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "关于我"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+双子座，INFJ（P）-T，信息安全行业工作者。
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+「不系之舟」取自《庄子·杂篇·列御寇》中的「巧者劳而智者忧，无能者无所求，饱食而遨游，泛若<span style="color:orange; text-decoration: underline dashed; text-decoration-color: black;">不系之舟</span>，虚而遨游者也。」
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+我有一只暹罗猫，很黏人，它的名字叫闪电。
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
-
-## Features
-
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+<div>
+  <img src="/assets/cat.jpg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+</div>
