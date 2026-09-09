@@ -15,7 +15,7 @@ export default defineAstroPaperConfig({
   posts: {
     perPage: 4,
     perIndex: 4,
-    scheduledPostMargin: 15 * 60 * 1000,
+    scheduledPostMargin: 24 * 60 * 60 * 1000, // 24h: 容忍把北京时间误写成 Z 时间（8h 时差）导致的“未来文章”
   },
   features: {
     lightAndDarkMode: true,
